@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="blueberry_200">#90caf9</color>
+    <color name="blueberry_400">#42A5F5</color>
+    <color name="blueberry_900">#0f46a1</color>
+    <color name="white">#FFF</color>
+
+    <color name="blue_500">#3F51B5</color>
+    <color name="blue_700">#303F9F</color>
+
+    <color name="gold">#d4af37</color>
+</resources>

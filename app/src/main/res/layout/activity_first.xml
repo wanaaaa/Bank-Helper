@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".firstActivity">
+    <!--E-mail field-->
+
+    <!--Password field-->
+
+    <EditText
+        android:id="@+id/userNameETextID"
+        android:layout_width="wrap_content"
+        android:layout_height="90dp"
+        android:hint="User Name"
+        tools:ignore="MissingConstraints"
+        app:layout_constraintTop_toTopOf="parent"
+        />
+
+    <EditText
+        android:id="@+id/pWordETextID"
+        android:layout_width="wrap_content"
+        android:layout_height="90dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintLeft_toRightOf="@+id/userNameETextID"
+        android:hint="Password"
+        tools:ignore="MissingConstraints" />
+
+<!--    <Button-->
+<!--        android:id="@+id/LogInBuID"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Log In"-->
+<!--        tools:ignore="MissingConstraints"-->
+<!--        android:onClick="logInBuFun"-->
+<!--        app:layout_constraintLeft_toRightOf="@+id/pWordETextID"-->
+<!--        />-->
+    <ImageButton
+        android:id="@+id/LogInBuID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/login_icon"
+        android:onClick="logInBuFun"
+        app:layout_constraintLeft_toRightOf="@+id/pWordETextID"
+        tools:ignore="MissingConstraints" />
+
+    <Spinner
+        android:id="@+id/sMusicSpinID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/userNameETextID"
+        tools:ignore="MissingConstraints" />
+
+<!--    <Button-->
+<!--        android:id="@+id/mTunfOffBuId"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:onClick="TurnOffMusicFun"-->
+<!--        android:text="Turn Off Music"-->
+<!--        tools:ignore="MissingConstraints"-->
+<!--        android:drawableLeft="@drawable/music_off_icon"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/userNameETextID"-->
+<!--        app:layout_constraintLeft_toRightOf="@+id/sMusicSpinID"-->
+<!--        />-->
+
+    <ImageButton
+        android:id="@+id/mTunfOffBuId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="TurnOffMusicFun"
+        tools:ignore="MissingConstraints"
+        android:src="@drawable/musicoff"
+        app:layout_constraintTop_toBottomOf="@+id/userNameETextID"
+        app:layout_constraintLeft_toRightOf="@+id/sMusicSpinID"
+        />
+
+    <Button
+        android:id="@+id/bankDataBu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="toBankData"
+        android:text="Banks Info"
+        tools:ignore="MissingConstraints"
+        app:layout_constraintTop_toBottomOf="@+id/sMusicSpinID"
+         />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:onClick="toSaveCheckFun"
+        android:paddingLeft="50dp"
+        android:text="Save Check"
+        app:layout_constraintLeft_toRightOf="@+id/bankDataBu"
+        app:layout_constraintTop_toBottomOf="@+id/sMusicSpinID"
+        tools:ignore="MissingConstraints"
+        />
+
+    <ImageView
+        android:id="@+id/lockDoorViewID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/bankDataBu"
+        tools:ignore="MissingConstraints" />
+</androidx.constraintlayout.widget.ConstraintLayout>

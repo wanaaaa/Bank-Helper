@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Banking Helper</string>
+    <string name="details">Details</string>
+    <string name="photo_saved">Saved</string>
+    <string name="photo_not_saved">Not saved</string>
+
+    <string-array name="banks">
+        <item>Capital One</item>
+        <item>JP Morgan</item>
+        <item>Bank of America</item>
+        <item>Wells Fargo</item>
+    </string-array>
+
+    <string-array name="descriptions">
+        <item>American bank holding company specializing in credit cards, auto loans, banking, and savings accounts, headquartered in McLe</item>
+        <item> American national bank headquartered in New York City, that constitutes the consumer and commercial banking subsidiary of th</item>
+        <item>American multinational investment bank and financial services holding company headquartered in Charlotte, North Carolina. The bank was founded in San Francisco,</item>
+        <item>Wells Fargo Bank, N.A., a national bank chartered in Wilmington, Delaware,[3] which designates its main office in Sioux Falls, South Dakota. It is the fourth large</item>
+    </string-array>
+
+    <string-array name="songs_array">
+        <item>Select Music</item>
+        <item>Take on Me</item>
+        <item>Funky Town</item>
+        <item>Hotel California</item>
+    </string-array>
+</resources>
